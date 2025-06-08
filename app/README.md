@@ -1,4 +1,4 @@
-# Empréstimo Finder Brasil
+# EmpréstiFácil
 
 Aplicação web moderna para comparação de ofertas de empréstimo entre diferentes instituições financeiras no Brasil, desenvolvida com React, TypeScript e Tailwind CSS.
 
