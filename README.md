@@ -7,7 +7,7 @@ Este é um sistema web moderno para simulação e consulta de ofertas de crédit
 
 ### Apresentação
 Veja uma apresentação do aplicativo:
-- 🎥 [Assista ao vídeo de demonstração](https://www.loom.com/share/b2bd77e6c7cc424a8b01302d30cc78f5?sid=42ae4d1c-b3e9-4b34-a206-11e8b28c24c4)
+- 🎥 [Assista ao vídeo de demonstração](https://www.loom.com/share/bf28ec44eccf4e6e934877a1b75c7208?sid=1ab2db80-0837-4e31-8636-f61c55338862)
 
 ### Gosat API e Configurações 🚀
 Explore a configuração técnica e a API:
