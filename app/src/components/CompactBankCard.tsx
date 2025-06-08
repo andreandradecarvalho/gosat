@@ -6,7 +6,7 @@ import { DollarSign, Calendar, Percent, Star, Plus, Loader2 } from 'lucide-react
 import { Bank } from '@/pages/Index';
 import { useToast } from '@/components/ui/use-toast';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://gosat-api:8000/api/v1';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
 const API_TOKEN = import.meta.env.VITE_API_TOKEN || '';
 
 
