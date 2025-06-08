@@ -1,0 +1,236 @@
+{
+	"info": {
+		"_postman_id": "a2927100-ca26-421b-be5e-31736f98b340",
+		"name": "Gosat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19965643",
+		"_collection_link": "https://planetary-spaceship-64760.postman.co/workspace/My-Workspace~07c9d445-8190-4237-87d7-a9f927733864/collection/19965643-a2927100-ca26-421b-be5e-31736f98b340?action=share&source=collection_link&creator=19965643"
+	},
+	"item": [
+		{
+			"name": "gosat.org",
+			"item": [
+				{
+					"name": "Consulta de oferta de crédito",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cpf\":\"11111111111\",\n     \"instituicao_id\": 1,\n     \"codModalidade\": \"13\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.gosat.org/api/v1/simulacao/oferta",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"gosat",
+								"org"
+							],
+							"path": [
+								"api",
+								"v1",
+								"simulacao",
+								"oferta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Simulação da oferta de crédito",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cpf\":\"11111111111\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.gosat.org/api/v1/simulacao/credito",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"gosat",
+								"org"
+							],
+							"path": [
+								"api",
+								"v1",
+								"simulacao",
+								"credito"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Healthcheck",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-permission-key",
+						"value": "{{PERMISSION_KEY}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{API_URL}}/healthcheck",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta de oferta de crédito",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 39IJeoyMzMNPoPSgbNwMV1i5vYGL0JSl4Lw2KCVmAYk3BINVkSWgJi4EXYHRnNfn",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cpf\": \"07258796687\",\n    \"valor\": 600\n}"
+				},
+				"url": {
+					"raw": "{{API_URL}}/api/v1/consulta-ofertas-de-credito",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"consulta-ofertas-de-credito"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simulação da oferta de crédito",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 39IJeoyMzMNPoPSgbNwMV1i5vYGL0JSl4Lw2KCVmAYk3BINVkSWgJi4EXYHRnNfn",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cpf\":\"07258796687\",\n    \"instituicao_id\":1,\n    \"codModalidade\":\"3\",\n    \"valorSolicitado\":\"1000\"\n}"
+				},
+				"url": {
+					"raw": "{{API_URL}}/api/v1/simulacao-de-oferta-de-credito",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"simulacao-de-oferta-de-credito"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "API_URL",
+			"value": "http://localhost:8000",
+			"type": "string"
+		}
+	]
+}
