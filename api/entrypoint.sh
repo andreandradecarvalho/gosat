@@ -19,6 +19,11 @@ echo "Current .env database settings:"
 grep '^DB_' .env || echo "No DB_ settings found in .env"
 
 
+# Run composer install
+echo "Running composer install..."
+composer install  || { echo "composer install failed"; exit 1; }
+
+
 # Run migrations and generate keys
 echo "Running migrations..."
 php artisan migrate --force || { echo "Migration failed"; exit 1; }
