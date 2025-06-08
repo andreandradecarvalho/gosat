@@ -56,16 +56,39 @@ Para uma visão mais aprofundada das funcionalidades:
 
 ## 📦 Estrutura do Projeto
 
+### 🚀 Frontend (App)
+
 ```
-src/
-├── components/       # Componentes reutilizáveis
-│   ├── ui/           # Componentes de UI (Shadcn)
-│   └── ...
-├── pages/           # Páginas da aplicação
-├── services/        # Serviços de API
-├── hooks/           # Hooks personalizados
-├── lib/             # Utilitários e configurações
-└── utils/           # Funções utilitárias
+app/
+├── src/
+│   ├── components/       # Componentes reutilizáveis
+│   │   ├── ui/           # Componentes de UI (Shadcn)
+│   │   └── ...
+│   ├── pages/           # Páginas da aplicação
+│   ├── services/        # Serviços de API
+│   ├── hooks/           # Hooks personalizados
+│   ├── lib/             # Utilitários e configurações
+│   └── utils/           # Funções utilitárias
+├── public/             # Arquivos estáticos
+├── package.json        # Dependências e scripts
+└── vite.config.ts      # Configuração do Vite
+```
+
+### 🔧 Backend (API)
+
+```
+api/
+├── app/
+│   ├── Http/           # Lógica da aplicação
+│   │   ├── Controllers/ # Controladores da API
+│   │   └── Middleware/  # Middlewares
+│   ├── Models/         # Modelos de dados
+│   └── Providers/      # Service Providers
+├── routes/             # Definição de rotas da API
+├── database/           # Migrações e seeds
+├── config/            # Arquivos de configuração
+├── tests/             # Testes automatizados
+└── composer.json      # Dependências PHP
 ```
 
 ## 🛠️ Configuração do Ambiente
