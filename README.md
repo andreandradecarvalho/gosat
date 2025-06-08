@@ -7,15 +7,15 @@ Este é um sistema web moderno para simulação e consulta de ofertas de crédit
 
 ### Apresentação
 Veja uma apresentação do aplicativo:
-- 🎥 [Assista ao vídeo de demonstração](https://www.loom.com/share/46804323710c4cddb6b2f42e57491eef?sid=4159bac0-9870-447c-a73b-9cafccc382e8)
+- 🎥 [Assista ao vídeo de demonstração](https://www.loom.com/share/b2bd77e6c7cc424a8b01302d30cc78f5?sid=42ae4d1c-b3e9-4b34-a206-11e8b28c24c4)
 
 ### Gosat API e Configurações 🚀
 Explore a configuração técnica e a API:
-- 🎥 [Assista ao vídeo de configuração](https://www.loom.com/share/c5b2d586bc3545ada8ae2dc11f6e8b22?sid=dabb2db0-2bdc-4fee-bc62-f7df986be1a5)
+- 🎥 [Assista ao vídeo de configuração](https://www.loom.com/share/f8b5883e93b24ea7beb9488f8330b565?sid=cc64aabe-11e9-47bf-b82a-a57a1cf85269)
 
 ### Demonstração Detalhada do APP
 Para uma visão mais aprofundada das funcionalidades:
-- 🎥 [Assista ao vídeo detalhado](https://www.loom.com/share/a41e651986994e39abfeb1caf9c9a8a3?sid=277d2896-6f43-45fd-abf9-9f65acdacaec)
+- 🎥 [Assista ao vídeo detalhado](https://www.loom.com/share/cae77e3d46434e568685e002289a58ea?sid=d7fcc32d-585d-4845-90a7-d3be02704282)
 
 
 
