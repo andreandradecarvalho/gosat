@@ -1,0 +1,8 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { CPFForm } from '@/components/CPFForm';
+import { BankList } from '@/components/BankList';
+import { Search, CreditCard, Shield, TrendingUp, BarChart2, List, Star, Bank } from 'lucide-react';
+import { SimulationModal } from '@/components/SimulationModal';
+import { consultaOfertasDeCredito, OfertaCredito } from '@/services/creditService';
+import { useToast } from '@/components/ui/use-toast';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
